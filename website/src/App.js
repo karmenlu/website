@@ -34,7 +34,7 @@ const Name = styled.span`
 const Section = styled.div`
   text-align: left;
   background-color: white;
-  margin: 5em 5em;
+  margin: 5em 0em;
   padding: 0em 3em;
   overflow: auto;
 `
@@ -70,8 +70,6 @@ const SidePhoto = styled.img`
   display: block;
   width: 25%;
   height: auto;
-  padding: 0em 3em 0em 0em;
-  margin: 2em .2em;
 `
 const SideText = styled.span`
   width: 66%;
@@ -98,6 +96,8 @@ function App() {
           <SectionTitle>About</SectionTitle>
           <SectionBody>
             I am a student and software engineer from Massachusetts.
+            <br/><br/>
+            I am actively seeking new opportunities for Fall 2020.
             <br/><br/>I love riding my bike, learning how to play guitar, listening to new music, and going outside.
           </SectionBody>
           </SideText>
@@ -138,7 +138,7 @@ function App() {
         <Section id="education">
           <SectionTitle>Education</SectionTitle>
           <SectionSub>Northeastern University, Boston, MA</SectionSub>
-          <SectionBody>Candidate for a BS in Computer Science, exp. May 2021</SectionBody>
+          <SectionBody>Candidate for a BS in Computer Science, Expected to Graduate May 2021</SectionBody>
           <SectionSub>Arlington Catholic High School, Arlington, MA</SectionSub>
           <SectionBody>Class of 2017</SectionBody>
         </Section>
