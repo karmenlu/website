@@ -3,9 +3,9 @@ import './styles/App.css';
 import styled from "styled-components";
 
 const Header = styled.div`
-  background-color: gray;
-  margin: 0;
-  padding: 1em;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 0em;
+  padding: 1em 0em;
   overflow: auto;
   position: fixed;
   width: 100%;
@@ -15,47 +15,46 @@ const Header = styled.div`
 const Nav = styled.div`
   float: right;
   clear: none;
+  padding: .3em;
 `
 const Link = styled.a`
   text-decoration: none;
+  color: black;
+  padding: .3em;
 `
 const Name = styled.span`
-  font-size: 3em;
+  padding-left: 1.5em;
+  font-size: 2em;
   float: left;
   clear: none;
 `
 const Section = styled.div`
   text-align: left;
   background-color: white;
-  margin: 3em;
-  padding: 1.5em 3em;
-  box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  margin: 5em 3em;
+  padding: 0em 3em;
+  //box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 `
 const SectionTitle = styled.div`
   padding: 1em 0em .5em 0em;
   font-weight: 400;
   font-size: 1.7em;
-  //background-color: yellow;
 `
 const SectionSub = styled.div`
- //background-color: pink;
  font-weight: 700;
  font-size: 1em;
 `
 const SectionBody = styled.div`
-  //background-color: pink;
   padding: 1em 3em 1em 0em;
   font-size: 1em;
   
 `
 const Tags = styled.div`
-  background-color: white;//orange;
   padding: 0em 3em 1em 0em;
 `
 const ATag = styled.span`
   background-color: dodgerblue;
   color: white;
-  // border-radius: .25em;
   padding: .2em .5em;
   margin: 0em .2em;
   
@@ -83,6 +82,7 @@ function App() {
             I am a student and software engineer from Massachusetts. I am on the search for Fall 2020 opportunities.
             <br/><br/>I love riding my bike, learning how to play guitar, listening to new music, and going outside.
           </SectionBody>
+          <img src={require("./profile.JPG")}/>
         </Section>
         <Section id="experience">
           <SectionTitle>Experience</SectionTitle>
@@ -146,8 +146,8 @@ Python, Flask, RDKit
         </Section>
         
         <Footer>
-          <span>LinkedIn</span>
-          <span>Github</span>
+          <Link href="https://www.linkedin.com/in/karmen-lu">LinkedIn</Link>
+          <Link href="https://github.com/klu17">Github</Link>
           <div>Made by Karmen Lu, 2020</div>
         </Footer> 
  
