@@ -3,7 +3,7 @@ import './styles/App.css';
 import styled from "styled-components";
 
 const Header = styled.div`
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: white;
   margin: 0em;
   padding: 1em 0em;
   overflow: auto;
@@ -21,6 +21,9 @@ const Link = styled.a`
   text-decoration: none;
   color: black;
   padding: .3em;
+  &:hover {
+    color: #901BFF;
+  }
 `
 const Name = styled.span`
   padding-left: 1.5em;
@@ -31,9 +34,9 @@ const Name = styled.span`
 const Section = styled.div`
   text-align: left;
   background-color: white;
-  margin: 5em 3em;
+  margin: 5em 5em;
   padding: 0em 3em;
-  //box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  overflow: auto;
 `
 const SectionTitle = styled.div`
   padding: 1em 0em .5em 0em;
@@ -53,7 +56,7 @@ const Tags = styled.div`
   padding: 0em 3em 1em 0em;
 `
 const ATag = styled.span`
-  background-color: dodgerblue;
+  background-color: #1DD6D9;
   color: white;
   padding: .2em .5em;
   margin: 0em .2em;
@@ -62,6 +65,20 @@ const ATag = styled.span`
 const Footer = styled.div`
   
 `
+const SidePhoto = styled.img`
+  float: right;
+  display: block;
+  width: 25%;
+  height: auto;
+  padding: 0em 3em 0em 0em;
+  margin: 2em .2em;
+`
+const SideText = styled.span`
+  width: 66%;
+  float: left;
+  display: block;
+`
+
 function App() {
 
   return (
@@ -77,11 +94,14 @@ function App() {
       </Header>
       <body>
         <Section id="about">
+          <SideText>
           <SectionTitle>About</SectionTitle>
           <SectionBody>
-            I am a student and software engineer from Massachusetts. I am on the search for Fall 2020 opportunities.
+            I am a student and software engineer from Massachusetts.
             <br/><br/>I love riding my bike, learning how to play guitar, listening to new music, and going outside.
           </SectionBody>
+          </SideText>
+          <SidePhoto src={require("./photos/profile.JPG")} className="vert" alt="photo of Karmen"/>
         </Section>
         <Section id="experience">
           <SectionTitle>Experience</SectionTitle>
@@ -126,15 +146,21 @@ function App() {
           <SectionTitle>Projects</SectionTitle>
           <SectionSub>Cheminformatics</SectionSub>
           <SectionBody>
-            A tool for medicinal chemists to filter and group chemical compounds. By identifying compounds which are medically promising, this tool eliminates time spent on synthesizing chemical compounds which are not medically viable. Features that I added include a drop-down menu to select molecular fingerprint types and a color-picking tool. 
-Python, Flask, RDKit
+            A tool for medicinal chemists to filter and group chemical compounds. By identifying compounds which are medically promising, this tool eliminates time spent on synthesizing chemical compounds which are not medically viable. Features that I added include a drop-down menu to select molecular fingerprint types and a color-picking tool.
           </SectionBody>
           <Tags>
             <ATag>Python</ATag>
             <ATag>Flask</ATag>
             <ATag>RDKit</ATag>
           </Tags>
-          <SectionSub>Behavioral Analysis</SectionSub>
+          <div className="row">
+            <div className="column">
+              <img src={require("./photos/chemFilter.jpg")} className="vert" alt="cheminformatics user interface"/>
+              <img src={require("./photos/chemColorPicker.jpg")} className="hori" alt="color picker tool for cheminformatics"/>
+              <img src={require("./photos/chemResults.jpg")} className="vert" alt="results of filtering with cheminformatics"/>
+            </div>
+          </div>
+          <SectionSub>Behavior Analysis</SectionSub>
           <SectionBody>
             A video game which collects data that is used to assess how certain stimuli affect human avoidance responding. This project was built in collaboration with Dr. Nicole M. Davis, a professor of Northeastern University’s Bouve College of Health Sciences. User interactions affect the timing and duration of four distinct playing states. My contributions to this project include the development of an admin configuration page and a user log-in page. I collaborated with my team at Sandbox and learned about JavaScript libraries like Lodash and styled-components. 
           </SectionBody>
@@ -142,15 +168,31 @@ Python, Flask, RDKit
             <ATag>React</ATag>
             <ATag>Node.js</ATag>
           </Tags>
+          <div className="row">
+            <div className="column">
+              <img src={require("./photos/baLogIn.png")} className="hori" alt="log in page for behavior analysis"/>
+              <img src={require("./photos/baPlaying.png")} className="hori" alt="start state of playing behavior analysis"/>
+              <img src={require("./photos/baHigherScore.png")} className="hori" alt="another game state of behavior analysis"/>
+            </div>
+          </div>
         </Section>
-        
         <Footer>
-          <Link href="https://www.linkedin.com/in/karmen-lu">LinkedIn</Link>
-          <Link href="https://github.com/klu17">Github</Link>
-          <div>Made by Karmen Lu, 2020</div>
+          <Link href="https://www.linkedin.com/in/karmen-lu" target="_blank">LinkedIn</Link>
+          <Link href="https://github.com/klu17" target="_blank">Github</Link>
+          <div>Made by Karmen Lu ♥ 2020</div>
         </Footer> 
- 
+        <div className="row">
+          <div className="column">
+            <img src={require("./photos/charles.jpg")} className="hori" alt="tree by the Charles River"/>
+            <img src={require("./photos/shadow.jpg")} className="vert" alt="waving shadow"/>
+          </div>
+          <div className="column">
+            <img src={require("./photos/rainsford.jpg")} className="hori" alt="sunrise at Rainsford Island"/>
+            <img src={require("./photos/bikeGang.jpg")} className="hori" alt="people biking"/>
+          </div>
+        </div>
       </body>
+
     </div>
   );
 }
