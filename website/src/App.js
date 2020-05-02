@@ -82,7 +82,6 @@ function App() {
             I am a student and software engineer from Massachusetts. I am on the search for Fall 2020 opportunities.
             <br/><br/>I love riding my bike, learning how to play guitar, listening to new music, and going outside.
           </SectionBody>
-          <img src={require("./profile.JPG")}/>
         </Section>
         <Section id="experience">
           <SectionTitle>Experience</SectionTitle>
