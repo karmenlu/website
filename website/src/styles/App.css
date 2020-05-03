@@ -6,7 +6,7 @@
 }
 
 body{
-  margin-top: 7em;
+  margin-top: 3em;
 }
 .row {
   display: flex;
@@ -18,17 +18,3 @@ body{
   padding: 0 2em;
 }
 
-.hori{
-  width: 21em;
-  height: auto;
-}
-
-.vert{
-  height: 20em;
-  width: auto;
-}
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  padding: .5em;
-}
