@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles/App.css';
 import styled from "styled-components";
+import $ from "jquery";
 
 const Header = styled.div`
   background-color: white;
@@ -69,6 +70,27 @@ const Footer = styled.div`
   background-color: white;
 `
 
+function LastUpdate() {
+  const desiredRepo = "website";
+  const dateTagClass = ".last-git-update";
+
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function () {
+    if (this.readyState === 4 && this.status === 200) {
+      let repos = JSON.parse(this.responseText);
+
+      repos.forEach((repo) => {
+        if (repo.name === desiredRepo) {
+          var lastUpdated = new Date(repo.updated_at);
+          $(dateTagClass).text(`Last updated: ${lastUpdated}`);  
+        }
+      });
+    }
+  };
+  xhttp.open("GET", "https://api.github.com/users/klu17/repos", true);
+  xhttp.send();
+}
+
 function App() {
 
   return (
@@ -87,28 +109,28 @@ function App() {
           <SectionTitle>Hello. My name is Karmen.</SectionTitle>
           <SectionBody>
             I am a student and software engineer from Boston, MA.
-            <br/><br/>
-            I will be entering my fourth year at Northeastern University this Fall. Over these past few years,  
-            I have taken advantage of opportunities to collaborate with peers, to ask questions, and to develop my skillset.  
-            <br/><br/>I also love riding my bike, learning how to play guitar, listening to new music, and going outside.
+            <br /><br />
+            I will be entering my fourth year at Northeastern University this Fall. Over these past few years,
+            I have taken advantage of opportunities to collaborate with peers, to ask questions, and to develop my skillset.
+            <br /><br />I also love riding my bike, learning how to play guitar, listening to new music, and going outside.
           </SectionBody>
         </Section>
         <Section id="experience">
           <SectionTitle>Experience</SectionTitle>
           <SectionSub>
-            Curriculum Associates, North Billerica, MA<br/>Software Engineer Co-op
+            Curriculum Associates, North Billerica, MA<br />Software Engineer Co-op
           </SectionSub>
           <SectionBody>
-            Curriculum Associates is an education technology company. I was placed onto a team which focused on educator experience. Over the course of six months, I refactored databases with liquibase, documented APIs with Spring REST Docs, logged user interactions with log4j, and developed meaningful connections with mentors and my fellow co-ops. 
+            Curriculum Associates is an education technology company. I was placed onto a team which focused on educator experience. Over the course of six months, I refactored databases with liquibase, documented APIs with Spring REST Docs, logged user interactions with log4j, and developed meaningful connections with mentors and my fellow co-ops.
           </SectionBody>
           <Tags>
             <ATag>Fall 2019</ATag>
           </Tags>
           <SectionSub>
-            Khoury College of Computer Sciences, Boston, MA<br/>CS3500 Teaching Assistant
+            Khoury College of Computer Sciences, Boston, MA<br />CS3500 Teaching Assistant
           </SectionSub>
           <SectionBody>
-            CS3500, a course on Object-Oriented Design. My responsibilities include holding office hours and grading exams/assignments. 
+            CS3500, a course on Object-Oriented Design. My responsibilities include holding office hours and grading exams/assignments.
           </SectionBody>
           <Tags>
             <ATag>Summer 2019</ATag>
@@ -116,7 +138,7 @@ function App() {
             <ATag>Summer 2020</ATag>
           </Tags>
           <SectionSub>
-            mHealth Research Group, Boston, MA<br/>Volunteer
+            mHealth Research Group, Boston, MA<br />Volunteer
           </SectionSub>
           <SectionBody>
             I contributed to a project that was focused on the development of algorithms for activity detection from wearable sensors. Accelerometer datasets from different research groups were provided in a variety of formats. My task was to process these datasets and output a specific csv format which the mHealth algorithms used. Along the way, I learned about the Python pandas library.
@@ -145,7 +167,7 @@ function App() {
           </Tags>
           <SectionSub>Behavior Analysis</SectionSub>
           <SectionBody>
-            A video game which collects data that is used to assess how certain stimuli affect human avoidance responding. This project was built in collaboration with Dr. Nicole M. Davis, a professor of Northeastern University’s Bouve College of Health Sciences. User interactions affect the timing and duration of four distinct playing states. My contributions to this project include the development of an admin configuration page and a user log-in page. I collaborated with my team at Sandbox and learned about JavaScript libraries like Lodash and styled-components. 
+            A video game which collects data that is used to assess how certain stimuli affect human avoidance responding. This project was built in collaboration with Dr. Nicole M. Davis, a professor of Northeastern University’s Bouve College of Health Sciences. User interactions affect the timing and duration of four distinct playing states. My contributions to this project include the development of an admin configuration page and a user log-in page. I collaborated with my team at Sandbox and learned about JavaScript libraries like Lodash and styled-components.
           </SectionBody>
           <Tags>
             <ATag>React</ATag>
@@ -156,27 +178,10 @@ function App() {
           <Link href="https://www.linkedin.com/in/karmen-lu" target="_blank">LinkedIn</Link>
           <Link href="https://github.com/klu17" target="_blank">Github</Link>
           <div>Made by Karmen Lu ♥ 2020</div>
-        </Footer> 
-        {/* <div className="row">
-          <div className="column">
-            <img src={require("./photos/charles.jpg")} className="hori" alt="tree by the Charles River"/>
-            <img src={require("./photos/shadow.jpg")} className="vert" alt="waving shadow"/>
-            <img src={require("./photos/rainsford.jpg")} className="hori" alt="sunrise at Rainsford Island"/>
-            <img src={require("./photos/chemFilter.jpg")} className="vert" alt="cheminformatics user interface"/>
-          </div>
-          <div className="column">
-            <img src={require("./photos/chemColorPicker.jpg")} className="hori" alt="color picker tool for cheminformatics"/>
-            <img src={require("./photos/chemResults.jpg")} className="vert" alt="results of filtering with cheminformatics"/>
-            <img src={require("./photos/baLogIn.png")} className="hori" alt="log in page for behavior analysis"/>
-            <img src={require("./photos/baPlaying.png")} className="hori" alt="start state of playing behavior analysis"/>
-          </div>
-          <div className="column">
-              <img src={require("./photos/baHigherScore.png")} className="hori" alt="another game state of behavior analysis"/>
-              <img src={require("./photos/bikeGang.jpg")} className="hori" alt="people biking"/>
-          </div>
-        </div> */}
+          <div class="last-git-update"></div>
+          {LastUpdate()}
+        </Footer>
       </body>
-
     </div>
   );
 }
