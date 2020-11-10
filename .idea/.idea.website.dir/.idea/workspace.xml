@@ -1,43 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e20dcec0-a65c-4b4a-ab26-08e88296521b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/website/.idea/.idea.website.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/website/.idea/.idea.website.dir/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/.idea/.idea.website.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/website/.idea/.idea.website.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/public/CNAME" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/src/styles/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/website/yarn.lock" beforeDir="false" />
+    <list default="true" id="2a6b1b3f-ead6-4c08-8fd3-e809d96c1ce5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.website.dir/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.website.dir/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.website.dir/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.website.dir/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.website.dir/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.website.dir/riderModule.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,17 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/styles/App.css" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectId" id="1k6xKqHgTTj0IpPEHH61Dl4U75H" />
+  <component name="ProjectId" id="1k78EAUHobtXFgYME81j4HWMVa4" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -70,12 +30,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e20dcec0-a65c-4b4a-ab26-08e88296521b" name="Default Changelist" comment="" />
-      <created>1605034780637</created>
+      <changelist id="2a6b1b3f-ead6-4c08-8fd3-e809d96c1ce5" name="Default Changelist" comment="" />
+      <created>1605040157121</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1605034780637</updated>
-      <workItem from="1605034782430" duration="2675000" />
+      <updated>1605040157121</updated>
+      <workItem from="1605040163213" duration="1071000" />
     </task>
     <servers />
   </component>
@@ -84,17 +44,6 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
