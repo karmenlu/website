@@ -87,6 +87,14 @@
     <e p="$APPLICATION_PLUGINS_DIR$/JavaScriptLanguage/jsLanguageServicesImpl/flow/serviceworkers.js" t="IncludeRecursive" />
     <e p="$APPLICATION_PLUGINS_DIR$/JavaScriptLanguage/jsLanguageServicesImpl/flow/streams.js" t="IncludeRecursive" />
     <e p="$APPLICATION_PLUGINS_DIR$/JavaScriptLanguage/jsLanguageServicesImpl/flow/webassembly.js" t="IncludeRecursive" />
-    <e p="$PROJECT_DIR$" t="IncludeFlat" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="node_modules/cookie-parser" t="IncludeRecursive" />
+      <e p="node_modules/debug" t="IncludeRecursive" />
+      <e p="node_modules/express" t="IncludeRecursive" />
+      <e p="node_modules/gulp" t="IncludeRecursive" />
+      <e p="node_modules/http-errors" t="IncludeRecursive" />
+      <e p="node_modules/jade" t="IncludeRecursive" />
+      <e p="node_modules/morgan" t="IncludeRecursive" />
+    </e>
   </component>
 </project>
