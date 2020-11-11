@@ -1,66 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:wght@400;700&display=swap');
 
 body{
-    margin-top: 3em;
-}
-
-.app{
     text-align: center;
     font-family: "Open Sans", sans-serif;
+    background-color: black;
 }
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
-.column {
-    flex: 50%;
-    padding: 0 2em;
-}
-.header {
-    background-color: white;
-    margin: 0em;
-    padding: 1em 0em;
-    overflow: auto;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-}
-.nav {
-    float: right;
-    clear: none;
-    padding: .3em;
-}
-.link {
-    text-decoration: none;
-    color: black;
-    padding: .3em;
-}
-.link:hover {
-    color: #901BFF;
-}
-.headerName {
-    padding-left: 1.5em;
-    font-size: 2em;
-    float: left;
-    clear: none;
-}
-.section {
+/*general/misc styling*/
+section {
     text-align: left;
     background-color: white;
-    margin: 5em 2em;
     padding: 2em 3em;
     overflow: auto;
-    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 .sectionTitle {
     padding: 1em 0em .5em 0em;
-    font-weight: 400;
     font-size: 2em;
 }
 .sectionSub {
-    font-weight: 700;
     font-size: 1.5em;
 }
 .sectionBody {
@@ -77,6 +33,185 @@ body{
     padding: .2em .5em;
     margin: 0em .2em;
 }
-.footer {
+.link {
+    text-decoration: none;
+    color: black;
+    padding: .3em;
+}
+.link:hover {
+    color: red;
+}
+
+/*navigation menu bar*/
+#burgerIcon {
+    height: 2em;
+    width: 2em;
+    display: block;
+    background-image: url("data:image/svg+xml;charset=UTF-8, %3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'%3e%3cpath strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M6 18L18 6M6 6l12 12'/%3e%3c/svg%3e");
+}
+.collapsed #burgerIcon {
+    background-image: url("data:image/svg+xml;charset=UTF-8, %3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'%3e%3cpath strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M4 6h16M4 12h16M4 18h16'/%3e%3c/svg%3e");
+}
+#mainNav {
+    min-height: 6em;
+    background-color: black;
+}
+#mainNav .navbar-brand {
+    color: white;
+    font-size: 2.5em;
+    padding: .9rem 0;
+}
+#mainNav .navbar-nav .nav-item:hover {
+    color: fade(black, 80%);
+    outline: none;
+    background-color: black;
+}
+
+#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+    outline: none;
+    background-color: transparent;
+}
+
+/*medium screens or larger*/
+@media (min-width: 768px) {
+    #mainNav {
+        padding-top: 0;
+        padding-bottom: 0;
+        border-bottom: none;
+        background-color: transparent;
+        -webkit-transition: background-color 0.3s ease-in-out;
+        transition: background-color 0.3s ease-in-out;
+    }
+    #mainNav .navbar-brand {
+        padding: .5rem 0;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    #mainNav .nav-link {
+        -webkit-transition: none;
+        transition: none;
+        padding: 2rem 1.5rem;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    #mainNav .nav-link:hover {
+        color: rgba(255, 255, 255, 0.75);
+    }
+    #mainNav .nav-link:active {
+        color: white;
+    }
+    #mainNav.navbar-shrink {
+        background-color: white;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+        color: black;
+    }
+    #mainNav.navbar-shrink .nav-link {
+      .app  color: #161616;
+        padding: 1.5rem 1.5rem 1.25rem;
+        border-bottom: 0.25rem solid transparent;
+    }
+    #mainNav.navbar-shrink .nav-link:hover {
+        color: #d371c0;
+    }
+    #mainNav.navbar-shrink .nav-link:active {
+        color: #904d83;
+    }
+    #mainNav.navbar-shrink .nav-link.active {
+        color: #d371c0;
+        outline: none;
+        border-bottom: 0.25rem solid black;
+    }
+}
+
+/*about*/
+#about {
+    padding-top: 5rem;
+    background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
+    background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+}
+#about p {
+    margin-bottom: 5rem;
+}
+
+/*projects*/
+#projects {
+    background: #9cc2f0;
+    color: black;
+    padding: 5rem 0;
+}
+#projects .sectionBody {
+    padding: 3rem;
+    font-size: 2em;
+    color: black
+}
+#projects .link {
+}
+
+/*experience/work*/
+#experience .sectionTitle{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center !important;
+}
+
+/*education*/
+#education {
+    padding: 5rem 0;
+}
+
+#education .link{
+}
+#education ul{
+    padding:0px;
+}
+
+/*connect*/
+#connect {
+    padding: 3rem 0;
+    background: #4960c9;
+    color: white;
+    font-size: 2em;
+}
+#connect .card{
+    background: #4960c9;
+    color: white;
+    border: none;
+}
+#connect a {
+    color: white;
+    font-size: .5em;
+    text-align: center;
+}
+
+#connect a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+#connect a:active {
+    color: #97628c;
+    text-decoration: none;
+}
+
+/*footer*/
+footer {
     background-color: white;
+    color: black;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+/*smallest devices*/
+@media (max-height: 600px) { /*for the iphone 5s */
+
+}
+
+/*small devices and smaller*/
+@media (max-width: 768px) {
+
+}
+
+/*medium and larger*/
+@media (min-width: 768px) {
+
 }
