@@ -3,8 +3,8 @@
 body{
     text-align: center;
     font-family: "Open Sans", sans-serif;
-    background-color: black;
 }
+
 /*general/misc styling*/
 section {
     text-align: left;
@@ -13,63 +13,34 @@ section {
     overflow: auto;
 }
 .sectionTitle {
-    padding: 1em 0em .5em 0em;
     font-size: 2em;
-}
-.sectionSub {
-    font-size: 1.5em;
-}
-.sectionBody {
-    padding: 1em 3em 1em 0em;
-    font-size: 1em;
-    width:100%;
-}
-.tagList {
-    padding: 0em 3em 1em 0em;
-}
-.tag {
-    background-color: #1DD6D9;
-    color: white;
-    padding: .2em .5em;
-    margin: 0em .2em;
-}
-.link {
-    text-decoration: none;
-    color: black;
-    padding: .3em;
-}
-.link:hover {
-    color: red;
+    padding: 1em 0em;
 }
 
-/*navigation menu bar*/
+/*navigation*/
 #burgerIcon {
     height: 2em;
     width: 2em;
     display: block;
-    background-image: url("data:image/svg+xml;charset=UTF-8, %3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'%3e%3cpath strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M6 18L18 6M6 6l12 12'/%3e%3c/svg%3e");
+    background-image: url("data:image/svg+xml;charset=UTF-8, %3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='white'%3e%3cpath strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M6 18L18 6M6 6l12 12'/%3e%3c/svg%3e");
 }
 .collapsed #burgerIcon {
-    background-image: url("data:image/svg+xml;charset=UTF-8, %3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'%3e%3cpath strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M4 6h16M4 12h16M4 18h16'/%3e%3c/svg%3e");
+    background-image: url("data:image/svg+xml;charset=UTF-8, %3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='white'%3e%3cpath strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M4 6h16M4 12h16M4 18h16'/%3e%3c/svg%3e");
 }
 #mainNav {
     min-height: 6em;
     background-color: black;
+    opacity: 80%;
+    color: white;
 }
 #mainNav .navbar-brand {
     color: white;
     font-size: 2.5em;
     padding: .9rem 0;
 }
-#mainNav .navbar-nav .nav-item:hover {
-    color: fade(black, 80%);
-    outline: none;
-    background-color: black;
-}
-
-#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
-    outline: none;
-    background-color: transparent;
+/*smallest menu nav links*/
+#mainNav .nav-link{
+    color: white;
 }
 
 /*medium screens or larger*/
@@ -78,75 +49,78 @@ section {
         padding-top: 0;
         padding-bottom: 0;
         border-bottom: none;
-        background-color: transparent;
-        -webkit-transition: background-color 0.3s ease-in-out;
-        transition: background-color 0.3s ease-in-out;
+        background-color: black;
+        opacity: 90%;
+        color: white;
     }
     #mainNav .navbar-brand {
         padding: .5rem 0;
-        color: rgba(255, 255, 255, 0.5);
+        color: white;
     }
     #mainNav .nav-link {
-        -webkit-transition: none;
-        transition: none;
         padding: 2rem 1.5rem;
-        color: rgba(255, 255, 255, 0.5);
-    }
-    #mainNav .nav-link:hover {
-        color: rgba(255, 255, 255, 0.75);
-    }
-    #mainNav .nav-link:active {
         color: white;
     }
     #mainNav.navbar-shrink {
-        background-color: white;
-    }
-    #mainNav.navbar-shrink .navbar-brand {
-        color: black;
+        background-color: black;
+        color: white;
     }
     #mainNav.navbar-shrink .nav-link {
-      .app  color: #161616;
+        color: white;
         padding: 1.5rem 1.5rem 1.25rem;
-        border-bottom: 0.25rem solid transparent;
     }
-    #mainNav.navbar-shrink .nav-link:hover {
-        color: #d371c0;
-    }
-    #mainNav.navbar-shrink .nav-link:active {
-        color: #904d83;
-    }
-    #mainNav.navbar-shrink .nav-link.active {
-        color: #d371c0;
-        outline: none;
-        border-bottom: 0.25rem solid black;
-    }
+}
+
+/*welcome*/
+#welcome {
+    padding-top: 7rem;
+    background: black; 
+}
+.welcomeText{
+    color: white;
+    font-size: 2em;
 }
 
 /*about*/
-#about {
-    padding-top: 5rem;
-    background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
-    background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+#about .sectionTitle{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center !important;
 }
-#about p {
-    margin-bottom: 5rem;
-}
+
 
 /*projects*/
 #projects {
-    background: #9cc2f0;
+    background: black;
+    color: white;
+    font-size: 1em;
+    
+}
+#projects .sectionTitle{
+    color: white;
+    text-align: center;
+    margin: 1em auto 0em auto;
+}
+.projectsContainer {
+    background: black;
+    margin: 2em 2em;
+}
+.projectTitle {
     color: black;
-    padding: 5rem 0;
+    padding: 1em 1em .5em 0em;
+    font-size: 1.5em;
 }
-#projects .sectionBody {
-    padding: 3rem;
-    font-size: 2em;
-    color: black
+.projectText {
+    color: black;
+    font-size: 1em;
+    padding: 0 1em;
 }
-#projects .link {
+.projectTile {
+    margin: 2em 0;
 }
 
-/*experience/work*/
+/*experience*/
 #experience .sectionTitle{
     padding-top: 2rem;
     padding-left: 2rem;
@@ -154,42 +128,31 @@ section {
     text-align: center !important;
 }
 
-/*education*/
-#education {
-    padding: 5rem 0;
-}
-
-#education .link{
-}
-#education ul{
-    padding:0px;
+#experience .sectionSub {
+    font-size: 1.2em;
+    font-weight: bolder;
 }
 
 /*connect*/
 #connect {
-    padding: 3rem 0;
-    background: #4960c9;
-    color: white;
+    color: black;
+    padding: 3em 0;
+    background: white;
     font-size: 2em;
 }
-#connect .card{
-    background: #4960c9;
-    color: white;
-    border: none;
+#connect .sectionTitle{
+    color: black;
+    font-size: 1em;
+    padding: .5em;
 }
 #connect a {
-    color: white;
+    color: black;
     font-size: .5em;
     text-align: center;
-}
-
-#connect a:hover {
-    color: black;
     text-decoration: none;
 }
-
-#connect a:active {
-    color: #97628c;
+#connect a:hover {
+    color: #373D3F;
     text-decoration: none;
 }
 
@@ -198,20 +161,16 @@ footer {
     background-color: white;
     color: black;
     text-align: center;
-    padding: 5rem 0;
+    padding: 0 0 6em 0;
 }
 
-/*smallest devices*/
-@media (max-height: 600px) { /*for the iphone 5s */
-
+/*tags*/
+.tagList {
+    padding: 0em 3em 1em 0em;
 }
-
-/*small devices and smaller*/
-@media (max-width: 768px) {
-
-}
-
-/*medium and larger*/
-@media (min-width: 768px) {
-
+.tag {
+    background-color: black;
+    color: white;
+    padding: .2em .5em;
+    margin: 2em 0em;
 }
