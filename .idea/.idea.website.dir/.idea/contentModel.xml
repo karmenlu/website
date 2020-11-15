@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/javascript/typings/express/4.16.1/node_modules/@types/body-parser" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/javascript/typings/express/4.16.1/node_modules/@types/connect" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/javascript/typings/express/4.16.1/node_modules/@types/express" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/javascript/typings/express/4.16.1/node_modules/@types/express-serve-static-core" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/javascript/typings/express/4.16.1/node_modules/@types/mime" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/javascript/typings/express/4.16.1/node_modules/@types/node" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/javascript/typings/express/4.16.1/node_modules/@types/qs" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/javascript/typings/express/4.16.1/node_modules/@types/range-parser" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/javascript/typings/express/4.16.1/node_modules/@types/serve-static" t="IncludeRecursive" />
     <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_.19.00" t="ExcludeRecursive" />
     <e p="$APPLICATION_PLUGINS_DIR$/JavaScriptLanguage/jsLanguageServicesImpl/external/browser.d.ts" t="IncludeRecursive" />
     <e p="$APPLICATION_PLUGINS_DIR$/JavaScriptLanguage/jsLanguageServicesImpl/external/es2019decorators.d.ts" t="IncludeRecursive" />
@@ -78,6 +87,16 @@
     <e p="$APPLICATION_PLUGINS_DIR$/JavaScriptLanguage/jsLanguageServicesImpl/flow/serviceworkers.js" t="IncludeRecursive" />
     <e p="$APPLICATION_PLUGINS_DIR$/JavaScriptLanguage/jsLanguageServicesImpl/flow/streams.js" t="IncludeRecursive" />
     <e p="$APPLICATION_PLUGINS_DIR$/JavaScriptLanguage/jsLanguageServicesImpl/flow/webassembly.js" t="IncludeRecursive" />
-    <e p="$PROJECT_DIR$" t="IncludeFlat" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="node_modules/bootstrap" t="IncludeRecursive" />
+      <e p="node_modules/cookie-parser" t="IncludeRecursive" />
+      <e p="node_modules/debug" t="IncludeRecursive" />
+      <e p="node_modules/express" t="IncludeRecursive" />
+      <e p="node_modules/gulp" t="IncludeRecursive" />
+      <e p="node_modules/http-errors" t="IncludeRecursive" />
+      <e p="node_modules/jade" t="IncludeRecursive" />
+      <e p="node_modules/jquery" t="IncludeRecursive" />
+      <e p="node_modules/morgan" t="IncludeRecursive" />
+    </e>
   </component>
 </project>
