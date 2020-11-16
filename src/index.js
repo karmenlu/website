@@ -25,12 +25,12 @@ function scrollTrigger() {
     // Activate scrollspy to add active class to navbar items on scroll
     $('body').scrollspy({
         target: '#mainNav',
-        offset: 700
+        offset: 100
     });
 
     const closeMobileMenu = function () {
         // Close mobile navigation options when not at top.
-        if ($("#mainNav").offset().top > 700) {
+        if ($("#mainNav").offset().top > 100) {
             $("#mainNav").addClass("navbar-shrink");
         } else {
             $("#mainNav").removeClass("navbar-shrink");

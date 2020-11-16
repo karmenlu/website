@@ -75,16 +75,6 @@ section {
     }
 }
 
-.collapsing {
-    -webkit-transition-delay: 300s;
-    transition-delay: 300s;
-}
-.collapse.show {
-    -webkit-transition-delay: 300s;
-    transition-delay: 300s;
-}
-
-
 /*welcome*/
 #welcome {
     padding-top: 7rem;
