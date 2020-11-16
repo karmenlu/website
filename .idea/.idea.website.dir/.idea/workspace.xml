@@ -20,15 +20,169 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a6b1b3f-ead6-4c08-8fd3-e809d96c1ce5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/logos/docsBlack.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/logos/githubDark64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/logos/liBlack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/ol_desktop_chromium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bootstrap/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bootstrap/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bootstrap/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.website.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.website.dir/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.website.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.website.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/headshot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/headshot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/AUTHORS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.slim.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/dist/sizzle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/dist/sizzle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/dist/sizzle.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/jsonp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/load.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/var/location.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/var/nonce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/var/rquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/xhr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/attributes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/attributes/attr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/attributes/classes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/attributes/prop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/attributes/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/attributes/val.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/callbacks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/DOMEval.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/access.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/camelCase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/isAttached.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/nodeName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/parseHTML.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/parseXML.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/ready-no-deferred.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/ready.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/readyException.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/stripAndCollapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/toType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/var/rsingleTag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/addGetHookIf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/adjustCSS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/curCSS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/finalPropName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/hiddenVisibleSelectors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/showHide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/var/cssExpand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/var/getStyles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/var/isHiddenWithinTree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/var/rboxStyle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/var/rnumnonpx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/var/swap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/data/Data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/data/var/acceptData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/data/var/dataPriv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/data/var/dataUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/deferred.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/deferred/exceptionHook.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/deprecated.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/deprecated/ajax-event-alias.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/deprecated/event.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/dimensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/effects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/effects/Tween.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/effects/animatedSelector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/event.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/event/focusin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/event/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/event/trigger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/exports/amd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/exports/global.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/_evalUrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/buildFragment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/getAll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/setGlobalEval.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/var/rscriptType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/var/rtagName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/wrapMap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/offset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/queue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/queue/delay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/selector-native.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/selector-sizzle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/selector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/serialize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/traversing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/traversing/findFilter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/traversing/var/dir.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/traversing/var/rneedsContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/traversing/var/siblings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/ObjectFunctionString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/arr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/class2type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/document.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/documentElement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/flat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/fnToString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/getProto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/hasOwn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/indexOf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/isFunction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/isWindow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/pnum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/push.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/rcheckableType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/rcssNum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/rnothtmlwhite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/slice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/toString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/wrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/CNAME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/behaviorGamePlaying.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/behaviorGamePlaying.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/behaviorSignIn.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/behaviorSignIn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/chemFilter.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/chemFilter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/chemOutput.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/chemOutput.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/headshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/headshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logos/docsBlack.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/logos/docsBlack.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logos/githubDark64.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/logos/githubDark64.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logos/liBlack.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/logos/liBlack.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/ol_desktop_chromium.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/ol_desktop_chromium.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/javascripts/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/javascripts/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/javascripts/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/javascripts/jquery.easing.1.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/logger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/error.jade" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.jade" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layout.jade" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +214,13 @@
         <option value="$PROJECT_DIR$/views/index.html" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/webpack.server.config.js" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/javascripts/index.js" />
+        <option value="$PROJECT_DIR$/src/html/index.html" />
         <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/stylesheets/index.css" />
       </list>
     </option>
   </component>
@@ -80,6 +240,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../madelinez820.github.io" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -103,6 +264,10 @@
       <workItem from="1605040163213" duration="1071000" />
       <workItem from="1605041801046" duration="44160000" />
       <workItem from="1605372394551" duration="33807000" />
+      <workItem from="1605495121355" duration="3926000" />
+      <workItem from="1605499084865" duration="5001000" />
+      <workItem from="1605504178099" duration="1495000" />
+      <workItem from="1605506176473" duration="884000" />
     </task>
     <servers />
   </component>
@@ -196,10 +361,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1606" height="341" key="GridCell.Tab.3.right/72.27.1848.1053@72.27.1848.1053" timestamp="1605086168765" />
-    <state x="266" y="376" width="762" height="644" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605484056769">
+    <state x="266" y="376" width="762" height="644" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605499535162">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="266" y="376" width="762" height="644" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1605484056769" />
+    <state x="266" y="376" width="762" height="644" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1605499535162" />
     <state x="241" y="27" width="1375" height="932" maximized="true" key="dock-window-1" timestamp="1605073864347">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>

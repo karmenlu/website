@@ -1,12 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Express and Webpack App</title>
-    <link rel="shortcut icon" href="#">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Karmen Lu - Software Engineer</title>
+    <link rel="icon" href="../images/favicon.ico">
 </head>
-<body>
-    <h1>Expack</h1>
-    <p class="description">Express and Webpack Boilerplate App</p>
+<body id="top">
+
+<!-- navigation menu -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#top">Karmen Lu</a>
+        <button id="toggleButton" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#toggleMobileMenu" aria-controls="toggleMobileMenu"
+                aria-expanded="false" aria-label="Mobile navigation menu">
+            <span id="burgerIcon"/>
+        </button>
+        <div class="collapse navbar-collapse" id="toggleMobileMenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#connect">Connect</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--welcome-->
+<section id="welcome">
+    <div>
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+            <div class="col-lg-6 my-auto text-center">
+                <img class="w-75 px-5" src="/5118352180d1f11317b851b1af985d4e.png" alt="headshot"/>
+            </div>
+            <div class="col-lg-6">
+                <div class="d-flex h-70">
+                    <div class="w-100 my-auto text-center text-lg-left p-5">
+                        <div class="welcomeText">
+                            Hello. I'm Karmen.
+                        </div>
+                        <div class="text-white">Student & Software Engineer from Boston, MA</div>
+                        <div class="text-white">Northeastern University</div>
+                        <div class="text-white">Candidate for a BS in Computer Science, Expected to Graduate May 2021
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--experience-->
+<section id="experience">
+    <div class="container">
+        <div class="sectionTitle">Experience</div>
+        <div class="sectionSub">
+            Software Engineer Co-op - Lose It!, Boston, MA
+        </div>
+        <div class="sectionBody">
+            Developer on the Infrastructure Team.
+        </div>
+        <div class="tagList">
+            <span class="tag">Fall 2020</span>
+        </div>
+        <div class="sectionSub">
+            Software Engineer Intern - Red Hat, Boston, MA
+        </div>
+        <div class="sectionBody">
+            Contributed to the Mass Open Cloud Metering Project. Designed a system to generate reports, defined use
+            cases and API requirements,
+            developed a functional first iteration of a resource usage reporting UI, and improved the
+            overall responsiveness of the metering interface. (React, Javascript, Jest Snapshot Testing, Figma,
+            PatternFly)
+        </div>
+        <div class="tagList">
+            <span class="tag">Summer 2020</span>
+        </div>
+        <div class="sectionSub">
+            Software Engineer Co-op - Curriculum Associates, North Billerica, MA
+        </div>
+        <div class="sectionBody">
+            Curriculum Associates is an education technology company. I was placed onto a team which focused on educator
+            experience. Over the course of six months, I refactored databases with liquibase, documented APIs with
+            Spring REST Docs, logged user interactions with log4j, and developed meaningful connections with mentors and
+            my fellow co-ops.
+        </div>
+        <div class="tagList">
+            <span class="tag">Fall 2019</span>
+        </div>
+        <div class="sectionSub">
+            Teaching Assistant - Khoury College of Computer Sciences, Boston, MA
+        </div>
+        <div class="sectionBody">
+            Teaching assistant for CS3500, a course on Object-Oriented Design. My responsibilities include holding
+            office hours, grading
+            exams/assignments, and interacting with students on the Piazza course forum.
+        </div>
+        <div class="tagList">
+            <span class="tag">Summer 2019</span>
+            <span class="tag">Spring 2020</span>
+            <span class="tag">Summer 2020</span>
+        </div>
+        <div class="sectionSub">
+            Volunteer - mHealth Research Group, Boston, MA
+        </div>
+        <div class="sectionBody">
+            I contributed to a project that was focused on the development of algorithms for activity detection from
+            wearable sensors. Accelerometer datasets from different research groups were provided in a variety of
+            formats. My task was to process these datasets and output a specific csv format which the mHealth algorithms
+            used. Along the way, I learned about the Python pandas library.
+        </div>
+        <div class="tagList">
+            <span class=tag>Summer 2018</span>
+        </div>
+    </div>
+</section>
+
+<!--project-->
+<section id="projects">
+    <div class="container">
+        <div class="mx-auto text-center">
+            <div class="sectionTitle">Projects</div>
+        </div>
+        <!--Orange Lines-->
+        <div class="projectTile">
+            <div class="bg-white row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-6 bg-white">
+                    <img class="img-fluid" src="/eec99c27f6eb89dbc0d21f1d13e9f2ba.png" alt="orange lines desktop display">
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-flex h-70">
+                        <div class="w-100 my-auto text-center text-lg-left p-2">
+                            <div class="projectTitle">Orange Lines</div>
+                            <p class="projectText">
+                                A tool to map routes for activities like walking, cycling, and driving. Inspired by the
+                                orange lines
+                                in Strava, a social network platform for athletes.
+                            </p>
+                            <div class="tagList">
+                                <span class="tag">React</span>
+                                <span class="tag">Mapbox API</span>
+                                <span class="tag">styled-components</span>
+                            </div>
+                            <a class="btn link" href="https://github.com/klu17/orange-lines" target="_blank"
+                               alt="link to orange lines code">
+                                Source code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Behavior Analysis-->
+        <div class="projectTile">
+            <div class="bg-white row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-6 bg-white">
+                    <img class="img-fluid" src="/387fe6942cfe3afeb08091a13987b886.png" alt="playing behavior analysis game">
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-flex h-70">
+                        <div class="w-100 my-auto text-center text-lg-left p-2">
+                            <div class="projectTitle">Behavior Analysis</div>
+                            <p class="projectText">
+                                A video game which collects data that is used to assess how certain stimuli affect human
+                                avoidance
+                                responding. User interactions affect the timing and duration of four
+                                distinct playing states. My contributions to this project include the development of an
+                                admin configuration
+                                page and a user log-in page. I collaborated with my team at Sandbox and learned about
+                                JavaScript libraries
+                                like Lodash and styled-components.
+                            </p>
+                            <div class="tagList">
+                                <span class="tag">React</span>
+                                <span class="tag">Node.js</span>
+                            </div>
+                            <a href="https://github.com/sandboxnu/behavioral-analysis" target="_blank" class="btn link">Source
+                                code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Cheminformatics-->
+        <div class="projectTile">
+            <div class="bg-white row justify-content-center no-gutters mb-5 mb-lg-0">
+                <div class="col-lg-6 bg-white">
+                    <img class="img-fluid" src="/180f6fcd990e182cedfaee79a27b4360.png" alt="cheminformatics analysis output">
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-flex h-70">
+                        <div class="w-100 my-auto text-center text-lg-left p-2">
+                            <div class="projectTitle">Cheminformatics</div>
+                            <p class="projectText">
+                                A tool for medicinal chemists to filter and group chemical compounds. By identifying
+                                compounds which are
+                                medically promising, this tool eliminates time spent on synthesizing chemical compounds
+                                which are not
+                                medically viable. Features that I added include a drop-down menu to select molecular
+                                fingerprint types and a
+                                color-picking tool.
+                            </p>
+                            <div class="tagList">
+                                <span class="tag">Python</span>
+                                <span class="tag">Flask</span>
+                                <span class="tag">RDKit</span>
+                            </div>
+                            <a class="btn link" href="https://github.com/sandboxnu/cheminformatics" target="_blank"
+                               alt="link to cheminformatics code">
+                                Source code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--about-->
+<section id="about">
+    <div class="container">
+        <div class="sectionTitle">About</div>
+        <div class="sectionBody">
+            With graduation around the corner (May 2021), I am seeking full-time opportunities. Although most of my past
+            technical work experiences have been focused on frontend and backend web development, I am a self-motivated
+            learner and would be open to any opportunities in software engineering/development. In particular, I am
+            interested in the intersection of software and fitness/health/wellness.
+            <br/><br/>
+            Outside of work and school, my other interests include road cycling, running, inline skating, listening to
+            music, and art.
+
+        </div>
+    </div>
+</section>
+
+<!--connect-->
+<section id="connect">
+    <div class="container">
+        <div class="mx-auto text-center">
+            <div class="sectionTitle">Let's Connect.</div>
+        </div>
+        <div class="row pt-3 pb-1">
+            <!--LinkedIn-->
+            <div class="col text-center">
+                <a class="link" href="https://www.linkedin.com/in/karmen-lu" target="_blank">
+                    <img class="w-25 pb-1" src="/b84669c40f06beb31234e64e786a6206.png" alt="black LinkedIn logo"/>
+                    LinkedIn
+                </a>
+            </div>
+            <!--Github-->
+            <div class="col text-center">
+                <a class="link" href="https://github.com/klu17" target="_blank" alt="link to Karmen's github">
+                    <img class="w-25 pb-1" src="/b039b2d83982c8256af34260e546303b.png" alt="black Github Mark logo"/>
+                    Github
+                </a>
+            </div>
+            <!--Resume-->
+            <div class="col text-center">
+                <a class="link"
+                   href="https://drive.google.com/file/d/1x2RtwPEOgSqTuG7kIiDZa5x5ABDDoQ2I/view?usp=sharing"
+                   target="_blank" alt="link to Karmen's resume">
+                    <img class="w-25" src="/45c69c7f2d295922c769ca3d62b4b1c4.svg" alt="image of a resume"/>
+                    Resume
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--footer-->
+<footer>
+    <div class="container">
+        <div>Made by Karmen Lu ♥ 2020</div>
+        <div class="last-git-update"></div>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="/main.js"></script></body>
 </html>

@@ -5,21 +5,26 @@
   "homepage": "https://karmen.dev",
   "scripts": {
     "build": "rm -rf dist && webpack --mode development --config webpack.server.config.js && webpack --mode development",
-    "start": "node ./dist/server.js",
+    "start": "node ./build/server.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "@popperjs/core": "^2.5.4",
     "bootstrap": "^4.5.3",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "gh-pages": "^3.1.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
     "jquery": "^3.5.1",
+    "jquery-easing": "0.0.1",
     "morgan": "~1.9.1",
-    "popper.js": "^1.16.1"
+    "popper.js": "^1.16.1",
+    "scrollspy-js": "^0.1.3"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
@@ -28,6 +33,8 @@
     "css-loader": "^5.0.1",
     "file-loader": "^6.2.0",
     "gh-pages": "^2.2.0",
+    "gulp-header": "^2.0.9",
+    "gulp-sass": "^4.1.0",
     "html-loader": "^1.3.2",
     "html-webpack-plugin": "^4.5.0",
     "style-loader": "^2.0.0",

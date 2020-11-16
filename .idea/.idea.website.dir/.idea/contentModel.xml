@@ -88,15 +88,58 @@
     <e p="$APPLICATION_PLUGINS_DIR$/JavaScriptLanguage/jsLanguageServicesImpl/flow/streams.js" t="IncludeRecursive" />
     <e p="$APPLICATION_PLUGINS_DIR$/JavaScriptLanguage/jsLanguageServicesImpl/flow/webassembly.js" t="IncludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="node_modules/@babel/core" t="IncludeRecursive" />
+      <e p="node_modules/@babel/preset-env" t="IncludeRecursive" />
+      <e p="node_modules/@popperjs/core" t="IncludeRecursive" />
+      <e p="node_modules/@types" t="IncludeRecursive">
+        <e p="anymatch" t="IncludeRecursive" />
+        <e p="eslint" t="IncludeRecursive" />
+        <e p="estree" t="IncludeRecursive" />
+        <e p="json-schema" t="IncludeRecursive" />
+        <e p="node" t="IncludeRecursive" />
+        <e p="source-list-map" t="IncludeRecursive" />
+        <e p="tapable" t="IncludeRecursive" />
+        <e p="uglify-js" t="IncludeRecursive" />
+        <e p="webpack-sources" t="IncludeRecursive" />
+      </e>
+      <e p="node_modules/ajv" t="IncludeRecursive" />
+      <e p="node_modules/ajv-keywords" t="IncludeRecursive" />
+      <e p="node_modules/babel-loader" t="IncludeRecursive" />
       <e p="node_modules/bootstrap" t="IncludeRecursive" />
+      <e p="node_modules/chrome-trace-event" t="IncludeRecursive" />
       <e p="node_modules/cookie-parser" t="IncludeRecursive" />
+      <e p="node_modules/css-loader" t="IncludeRecursive" />
       <e p="node_modules/debug" t="IncludeRecursive" />
+      <e p="node_modules/enhanced-resolve" t="IncludeRecursive" />
       <e p="node_modules/express" t="IncludeRecursive" />
+      <e p="node_modules/fast-deep-equal" t="IncludeRecursive" />
+      <e p="node_modules/fast-json-stable-stringify" t="IncludeRecursive" />
+      <e p="node_modules/file-loader" t="IncludeRecursive" />
+      <e p="node_modules/gh-pages" t="IncludeRecursive" />
       <e p="node_modules/gulp" t="IncludeRecursive" />
+      <e p="node_modules/gulp-clean-css" t="IncludeRecursive" />
+      <e p="node_modules/gulp-header" t="IncludeRecursive" />
+      <e p="node_modules/gulp-sass" t="IncludeRecursive" />
+      <e p="node_modules/html-loader" t="IncludeRecursive" />
+      <e p="node_modules/html-webpack-plugin" t="IncludeRecursive" />
       <e p="node_modules/http-errors" t="IncludeRecursive" />
       <e p="node_modules/jade" t="IncludeRecursive" />
       <e p="node_modules/jquery" t="IncludeRecursive" />
+      <e p="node_modules/jquery-easing" t="IncludeRecursive" />
       <e p="node_modules/morgan" t="IncludeRecursive" />
+      <e p="node_modules/pkg-dir" t="IncludeRecursive" />
+      <e p="node_modules/popper.js" t="IncludeRecursive" />
+      <e p="node_modules/schema-utils" t="IncludeRecursive" />
+      <e p="node_modules/scrollspy-js" t="IncludeRecursive" />
+      <e p="node_modules/source-map" t="IncludeRecursive" />
+      <e p="node_modules/style-loader" t="IncludeRecursive" />
+      <e p="node_modules/tapable" t="IncludeRecursive" />
+      <e p="node_modules/terser" t="IncludeRecursive" />
+      <e p="node_modules/tslib" t="IncludeRecursive" />
+      <e p="node_modules/uri-js" t="IncludeRecursive" />
+      <e p="node_modules/webpack" t="IncludeRecursive" />
+      <e p="node_modules/webpack-cli" t="IncludeRecursive" />
+      <e p="node_modules/webpack-node-externals" t="IncludeRecursive" />
     </e>
   </component>
 </project>
