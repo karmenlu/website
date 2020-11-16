@@ -45,6 +45,14 @@ section {
     transition: none;
 }
 
+#mainNav .nav-link:hover {
+    color: #42A67C;
+}
+
+#mainNav .nav-link:active {
+    color: #009676;
+}
+
 /*medium screens or larger*/
 @media (min-width: 768px) {
     #mainNav {
@@ -140,32 +148,36 @@ section {
 /*connect*/
 #connect {
     color: black;
-    padding: 3em 0;
+    padding: 4em 0 4em 0;
     background: white;
     font-size: 2em;
 }
 #connect .sectionTitle{
     color: black;
     font-size: 1em;
-    padding: .5em;
+    padding: .5em 0;
 }
 #connect a {
     color: black;
     font-size: .5em;
     text-align: center;
     text-decoration: none;
+    padding-top: 3em;
 }
 #connect a:hover {
-    color: #373D3F;
+    color: #42A67C;
     text-decoration: none;
 }
-
+#connect a:active {
+    color: #009676;
+    text-decoration: none;
+}
 /*footer*/
 footer {
     background-color: white;
     color: black;
     text-align: center;
-    padding: 0 0 6em 0;
+    padding: 0 0 8em 0;
 }
 
 /*tags*/
@@ -178,4 +190,7 @@ footer {
     padding: .2em .5em;
     margin: 2em 0em;
 }
-
+/*bright green #42A67C*/
+/*dark sage #009676*/
+/*red-pink #E33D82*/
+/*red-coral #FF006A*/
