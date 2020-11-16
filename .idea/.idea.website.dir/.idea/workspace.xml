@@ -56,9 +56,11 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/public/javascripts/index.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/index.css" />
         <option value="$PROJECT_DIR$/views/index.html" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
       </list>
     </option>
   </component>
@@ -194,6 +196,10 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1606" height="341" key="GridCell.Tab.3.right/72.27.1848.1053@72.27.1848.1053" timestamp="1605086168765" />
+    <state x="266" y="376" width="762" height="644" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605484056769">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="266" y="376" width="762" height="644" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1605484056769" />
     <state x="241" y="27" width="1375" height="932" maximized="true" key="dock-window-1" timestamp="1605073864347">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
