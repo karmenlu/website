@@ -58,7 +58,7 @@ html, body {
 
 #projects {
     background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
-    padding: 3em 12% 30% 12%;
+    padding: 5em 12% 30% 12%;
 }
 
 .projectTile {
@@ -91,7 +91,7 @@ html, body {
 
 #about {
     background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
-    padding: 3em 12% 30% 12%;
+    padding: 5em 12% 30% 12%;
 }
 
 #about .content {
@@ -102,7 +102,7 @@ html, body {
 
 #experience {
     background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
-    padding: 3em 12% 30% 12%
+    padding: 5em 12% 30% 12%
 }
 
 #experience .content {
@@ -115,53 +115,94 @@ html, body {
     padding: 1.5em;
 }
 
-.connectRow {
-    width: 100%;
+.navHeaderContent {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
 }
-
-.connectLogo {
-    width: 2em;
-}
-
-.connectLogoWrapper {
-    padding: .5em;
-}
-
-ul.navBar li {
+.navBar li {
     list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
 }
 
-ul.navBar {
+.navBar {
     z-index: 100;
     position: fixed;
     top: 0px;
     right: 0px;
     width: 100%;
     margin: 0;
-    padding: .2em 0 .2em 0;
-    text-align: center;
-    display: flex;
-    align-items: center;
+    padding: 0px;
     justify-content: center;
-    background: transparent;
+    background: rgba(220, 208, 255, 0.3);
 }
 
-ul.navBar li a {
+.navBar li a {
     text-decoration: none;
     color: black;
+    width: 100%;
     float: right;
-    background: rgba(255, 255, 255, .7);
-    display: block;
+    background: white;
     padding: .75em;
-    margin: .5em;
-    border-radius: 5px;
-    border: 1px whitesmoke solid;
+    border-bottom: 1px darkslategrey solid;
+}
+
+.navHeader {
+    font-family: "Playfair Display", serif;
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    float: right;
+    background: white;
+    padding: .75em;
+    border-bottom: 1px darkslategrey solid;
+}
+
+.navHeaderMenuButton {
+    width: 30px;
+    display: block;
+    float: left;
+}
+
+.navHeaderTitle {
+    align-self: center;
+}
+
+.connectRow {
+    align-self: flex-end;
+    position: fixed;
+    top: 15px;
+    right: 18px;
+
+}
+
+.connectLogo {
+    height: 30px;
+}
+
+.connectLogoWrapper {
+    padding: 2px;
+    float: right;
+}
+
+.navBarItems {
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    justify-content: center;
+}
+
+.hideMe {
+    display: none;
 }
 
 .active {
-    background: rgba(220, 208, 255, 0.7) !important;
-    border: 1px plum solid !important;
+    background: lavender !important;
 }
