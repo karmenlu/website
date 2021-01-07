@@ -1,0 +1,166 @@
+html, body {
+    margin: 0px;
+    height: 100%;
+    font-family: "Raleway", sans-serif;
+}
+
+.fullscreen {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#welcome {
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.headshot {
+    width: 15em;
+}
+
+.header {
+    font-family: "Playfair Display", serif;
+    font-size: 2.5em;
+}
+
+#welcome .subtext {
+
+}
+
+#welcome .row {
+    height: 100%;
+}
+
+@media (max-width: 991px) {
+    #welcome .text {
+        padding-bottom: 4em;
+    }
+
+    #welcome .headshotWrap {
+        padding-top: 4em;
+    }
+}
+
+#projects {
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    padding: 3em 12% 30% 12%;
+}
+
+.projectTile {
+    padding: 2em;
+    margin: 1em;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.projectTextWrap {
+    background: transparent;
+}
+
+.taglist {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag {
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: .7rem;
+    text-transform: uppercase;
+    color: black;
+    display: inline-flex;
+}
+
+#about {
+    background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+    padding: 3em 12% 30% 12%;
+}
+
+#about .content {
+    padding: 1em;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#experience {
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+    padding: 3em 12% 30% 12%
+}
+
+#experience .content {
+    padding: 1em;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.sectionBodyText {
+    padding: 1.5em;
+}
+
+.connectRow {
+    z-index: 100;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    padding: 1em;
+}
+
+.connectLogo {
+    width: 2em;
+}
+
+.connectLogoWrapper {
+    float: left;
+    padding: .5em;
+}
+
+ul.navBar li {
+    list-style-type: none;
+}
+
+ul.navBar {
+    z-index: 100;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    margin: 0;
+    padding: .2em 0 .2em 0;
+    text-align: center;
+    background: transparent;
+}
+
+ul.navBar li a {
+    text-decoration: none;
+    color: black;
+    float: right;
+    background: rgba(255, 255, 255, .7);
+    display: block;
+    padding: .75em;
+    margin: .5em;
+    border-radius: 5px;
+    border: 1px whitesmoke solid;
+}
+
+.active {
+    background: rgba(220, 208, 255, 0.7) !important;
+    border: 1px plum solid !important;
+}
