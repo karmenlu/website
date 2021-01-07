@@ -116,11 +116,10 @@ html, body {
 }
 
 .connectRow {
-    z-index: 100;
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    padding: 1em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .connectLogo {
@@ -128,7 +127,6 @@ html, body {
 }
 
 .connectLogoWrapper {
-    float: left;
     padding: .5em;
 }
 
@@ -145,6 +143,9 @@ ul.navBar {
     margin: 0;
     padding: .2em 0 .2em 0;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: transparent;
 }
 
