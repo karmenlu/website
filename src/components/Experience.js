@@ -11,7 +11,11 @@ class Resources extends Component {
                             Software Engineer Co-op - Lose It!, Boston, MA
                         </div>
                         <div className="sectionBody">
-                            Developer on the Infrastructure Team.
+                            Spearhead/initiate development of a React single-page application that has been deployed to production.
+                            Continuously adapt application to meet iterative UI design changes. Write Java features to 
+                            ensure food quality. Test features with JUnit and Mockito-Kotlin library. Build and run features on iOS 
+                            and Android simulators. Update JavaServer Pages for seasonal marketing. Add variables to Amplitude web experiments. 
+                            Monitor user analytics. Fix bugs.
                         </div>
                         <div className="tagList">
                             <span className="tag">Fall 2020</span>
