@@ -72,6 +72,19 @@ html, body {
     background: transparent;
 }
 
+.projectTitle {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.sourceCode{
+    border-radius: 10px; 
+}
+
+.sourceCode:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
 .taglist {
     display: flex;
     flex-wrap: wrap;
@@ -109,6 +122,12 @@ html, body {
     padding: 1em;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.5);
+}
+
+.experienceTitle {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: .1em;
 }
 
 .sectionBodyText {
@@ -172,6 +191,10 @@ html, body {
     float: left;
 }
 
+.navHeaderMenuButton:hover {
+    color: mediumpurple;
+}
+
 .navHeaderTitle {
     padding-left: .5em;
 }
@@ -188,9 +211,13 @@ html, body {
 }
 
 .connectLogoWrapper {
-    padding-left: .6em;
-    padding-right: .6em;
+    margin: .1em .7em .1em .7em;
     float: right;
+}
+
+.connectLogoWrapper:hover {
+    padding-bottom: 2px;
+    border-bottom: 2px black solid;
 }
 
 .navBarItems {

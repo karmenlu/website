@@ -7,7 +7,7 @@ class Resources extends Component {
                 <div className="header mx-auto text-center">Experience</div>
                 <div className="content row align-self-center">
                     <div className="sectionBodyText">
-                        <div className="sectionSub">
+                        <div className="experienceTitle">
                             Software Engineer Co-op - Lose It!, Boston, MA
                         </div>
                         <div className="sectionBody">
@@ -20,7 +20,7 @@ class Resources extends Component {
                         <div className="tagList">
                             <span className="tag">Fall 2020</span>
                         </div>
-                        <div className="sectionSub">
+                        <div className="experienceTitle">
                             Software Engineer Intern - Red Hat, Boston, MA
                         </div>
                         <div className="sectionBody">
@@ -36,7 +36,7 @@ class Resources extends Component {
                         <div className="tagList">
                             <span className="tag">Summer 2020</span>
                         </div>
-                        <div className="sectionSub">
+                        <div className="experienceTitle">
                             Software Engineer Co-op - Curriculum Associates, North Billerica, MA
                         </div>
                         <div className="sectionBody">
@@ -54,7 +54,7 @@ class Resources extends Component {
                         <div className="tagList">
                             <span className="tag">Fall 2019</span>
                         </div>
-                        <div className="sectionSub">
+                        <div className="experienceTitle">
                             Teaching Assistant - Khoury College of Computer Sciences, Boston, MA
                         </div>
                         <div className="sectionBody">
@@ -69,7 +69,7 @@ class Resources extends Component {
                             <span className="tag">Spring 2020</span>
                             <span className="tag">Summer 2020</span>
                         </div>
-                        <div className="sectionSub">
+                        <div className="experienceTitle">
                             Volunteer - mHealth Research Group, Boston, MA
                         </div>
                         <div className="sectionBody">

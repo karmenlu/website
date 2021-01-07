@@ -16,11 +16,10 @@ class Projects extends Component {
                                 <div className="w-100 my-auto text-center text-lg-left p-2">
                                     <div className="projectTitle">So It's A Date</div>
                                     <p className="projectText">
-                                        <em>A dating app connects you to that special someone. So It’s A Date connects
-                                            you to date ideas that may work for you.</em><br/><br/>
                                         So It’s A Date is a web application that allows users to filter, browse, and
-                                        query a
-                                        database of social activity/date ideas.
+                                        query a database of social activity/date ideas.
+                                        <br/><br/><em>A dating app connects you to that special someone. So It’s A Date connects
+                                        you to date ideas that may work for you.</em>
                                     </p>
                                     <div className="tagList">
                                         <span className="tag">React</span>
@@ -29,6 +28,14 @@ class Projects extends Component {
                                         <span className="tag">PostgreSQL</span>
                                         <span className="tag">Heroku</span>
                                     </div>
+                                    <a className="btn link sourceCode" href="https://github.com/klu17/siad-front" target="_blank"
+                                       alt="link to So It's A Date frontend code">
+                                        User Interface Source Code
+                                    </a>
+                                    <a className="btn link sourceCode" href="https://github.com/klu17/siad-api" target="_blank"
+                                       alt="link to So It's A Date backend code">
+                                        API Source Code
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -54,9 +61,9 @@ class Projects extends Component {
                                         <span className="tag">Mapbox API</span>
                                         <span className="tag">styled-components</span>
                                     </div>
-                                    <a className="btn link" href="https://github.com/klu17/orange-lines" target="_blank"
+                                    <a className="btn link sourceCode" href="https://github.com/klu17/orange-lines" target="_blank"
                                        alt="link to orange lines code">
-                                        Source code
+                                        Source Code
                                     </a>
                                 </div>
                             </div>
@@ -90,8 +97,7 @@ class Projects extends Component {
                                         <span className="tag">Node.js</span>
                                     </div>
                                     <a href="https://github.com/sandboxnu/behavioral-analysis" target="_blank"
-                                       className="btn link">Source
-                                        code</a>
+                                       className="btn link sourceCode" alt="link to behavior analysis code">Source Code</a>
                                 </div>
                             </div>
                         </div>
@@ -123,8 +129,8 @@ class Projects extends Component {
                                         <span className="tag">Flask</span>
                                         <span className="tag">RDKit</span>
                                     </div>
-                                    <a className="btn link" href="https://github.com/sandboxnu/cheminformatics" target="_blank" alt="link to cheminformatics code">
-                                        Source code
+                                    <a className="btn link sourceCode" href="https://github.com/sandboxnu/cheminformatics" target="_blank" alt="link to cheminformatics code">
+                                        Source Code
                                     </a>
                                 </div>
                             </div>
