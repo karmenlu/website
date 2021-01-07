@@ -11,8 +11,8 @@ class About extends Component {
                         to collaborate with peers, to ask questions, and to learn from everyone around me. Although
                         I entered college as a first generation student with no prior programming experience, I have grown
                         as an engineer through coursework, involvement in student organizations, and technical
-                        work experiences. Working as frontend, backend, and infrastructure roles, I learned about 
-                        the software industry and about how to work in large codebases. 
+                        work experiences. Working frontend, backend, and infrastructure roles, I learned about 
+                        the software industry and about what it's like to work in large codebases. 
                         And now, I continue to learn. Committed to personal progress and curious about new technologies,
                         I know that my journey is just beginning.
                         <br/><br/>
