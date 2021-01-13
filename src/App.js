@@ -4,6 +4,7 @@ import Welcome from "./components/Welcome";
 import Projects from "./components/Projects";
 import About from "./components/About";
 import Experience from "./components/Experience";
+import Misc from "./components/Misc";
 
 class App extends Component {
     constructor(props) {
@@ -53,7 +54,7 @@ class App extends Component {
                             </svg>
                         </div>
                         <div className="navHeaderContent">
-                            <div className="navHeaderTitle">Karmen Lu</div>
+                            <NavLink onClick={this.closeMobileMenu} exact to="/" className="navHeaderTitle">Karmen Lu</NavLink>
                             <div className="connectRow">
                                 <div className="connectLogoWrapper">
                                     <a className="link" href="https://www.linkedin.com/in/karmen-lu" target="_blank"
@@ -81,11 +82,11 @@ class App extends Component {
                         </div>
                     </div>
                     <ul className={`${this.state.isMobileMenuOpen ? "navBarItems row" : "hideMe"}`}>
-                        <li onClick={this.closeMobileMenu}><NavLink exact to="/">Welcome</NavLink></li>
+                        {/*<li onClick={this.closeMobileMenu}><NavLink exact to="/">Welcome</NavLink></li>*/}
                         <li onClick={this.closeMobileMenu}><NavLink exact to="/projects">Projects</NavLink></li>
                         <li onClick={this.closeMobileMenu}><NavLink exact to="/about">About</NavLink></li>
                         <li onClick={this.closeMobileMenu}><NavLink exact to="/experience">Experience</NavLink></li>
-                        <li></li>
+                        <li onClick={this.closeMobileMenu}><NavLink exact to="/misc">Misc</NavLink></li>
                     </ul>
                 </div>
                 <Switch>
@@ -100,6 +101,9 @@ class App extends Component {
                     </Route>
                     <Route exact path={"/experience"}>
                         <Experience/>
+                    </Route>
+                    <Route exact path={"/misc"}>
+                        <Misc/>
                     </Route>
                 </Switch>
             </React.Fragment>

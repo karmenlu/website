@@ -77,8 +77,8 @@ html, body {
     font-size: 1.2em;
 }
 
-.sourceCode{
-    border-radius: 10px; 
+.sourceCode {
+    border-radius: 10px;
 }
 
 .sourceCode:hover {
@@ -103,7 +103,7 @@ html, body {
 }
 
 #about {
-    background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
     padding: 5em 12% 30% 12%;
 }
 
@@ -118,7 +118,7 @@ html, body {
 }
 
 #experience {
-    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
     padding: 5em 12% 30% 12%
 }
 
@@ -136,6 +136,11 @@ html, body {
 
 .sectionBodyText {
     padding: 1.5em;
+}
+
+#misc {
+    background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%);
+    padding: 5em 12% 30% 12%;
 }
 
 .navHeaderContent {
@@ -177,6 +182,22 @@ html, body {
     border-bottom: 1px darkslategrey solid;
 }
 
+.navHeaderTitle {
+    text-decoration: none;
+    padding-left: .5em;
+    color: black;
+    font-family: "Playfair Display", serif;
+    font-size: x-large;
+    width: 100%;
+    float: right;
+    background: white;
+}
+
+.navHeaderTitle:hover {
+    text-decoration: none;
+    color: mediumpurple;
+}
+
 .navHeader {
     font-family: "Playfair Display", serif;
     font-size: x-large;
@@ -197,10 +218,6 @@ html, body {
 
 .navHeaderMenuButton:hover {
     color: mediumpurple;
-}
-
-.navHeaderTitle {
-    padding-left: .5em;
 }
 
 .connectRow {
@@ -235,6 +252,6 @@ html, body {
     display: none;
 }
 
-.active {
+.active:not(.navHeaderTitle) {
     background: lavender !important;
 }
