@@ -71,7 +71,7 @@ class App extends Component {
                                 </div>
                                 <div className="connectLogoWrapper">
                                     <a className="link"
-                                       href="https://drive.google.com/file/d/1amBFSxpe4eAg6JRCKIg3k4VI_konknlO/view?usp=sharing"
+                                       href="https://drive.google.com/file/d/1mJo_OmhctDgYYt11K6T8icKfQyJTNgXh/view?usp=sharing"
                                        target="_blank" alt="Link to Karmen's resume">
                                         <img className="connectLogo" src={process.env.PUBLIC_URL + "/images/docsBlack.svg"}
                                              alt="resume logo"/>

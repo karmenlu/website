@@ -16,7 +16,7 @@ class About extends Component {
                         And now, I continue to learn. Committed to personal progress and curious about new technologies,
                         I know that my journey is just beginning.
                         <br/><br/>
-                        With graduation around the corner (May 2021), I am seeking full-time opportunities. While most
+                        With graduation around the corner (May 2021), I am seeking post-grad opportunities. While most
                         of my past
                         roles have centered around web development, I am an enthusiastic learner and would be open to
                         any opportunities in

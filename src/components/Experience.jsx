@@ -70,6 +70,22 @@ class Resources extends Component {
                             <span className="tag">Summer 2020</span>
                         </div>
                         <div className="experienceTitle">
+                            Developer & Product Manager - Sandbox at Northeastern, Boston, MA
+                        </div>
+                        <div className="sectionBody">
+                            Collaborated in small teams of 3-4 to produce tailored software solutions for research groups. Incorporated
+                            user feedback in an iterative design process to ensure the best user experience. Projects include Behavior
+                            Analysis, Cheminformatics, and Vocab Buddy.<br/>
+                            Managed Vocab Buddy, a project aimed to assess vocabulary skills in K-12 students. Relayed client-requested deliverables
+                            to developers as smaller, discrete tasks. Updated task board on weekly basis. 
+                        </div>
+                        <div className="tagList">
+                            <span className="tag">Summer 2019</span>
+                            <span className="tag">Fall 2019</span>
+                            <span className="tag">Spring 2020</span>
+                            <span className="tag">Spring 2021</span>
+                        </div>
+                        <div className="experienceTitle">
                             Volunteer - mHealth Research Group, Boston, MA
                         </div>
                         <div className="sectionBody">
